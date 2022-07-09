@@ -1,5 +1,5 @@
 //for menu_bar button for mobile-view//
-/*  
+
 const menu_btn = document.querySelector('.menu_bar');
 const mobile_menu = document.querySelector('.mobile-nav');
 menu_btn.addEventListener('click', function() {
@@ -44,17 +44,8 @@ function ajax(method, url, data, success, error){
    };
    xhr.send(data);
 }
-*/
-const assignment = {sumOfNumbers, countEvenNumbers, countEvenNumbers};
 
 
-function countEvenNumbers(){
-  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const array = arr.filter(number => {
-   return number%2 === 0
-  })
-  return countEvenNumbers.length
-  }
-assignment.countEvenNumbers = countEvenNumbers;
+
 
 
