@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+/*media queries for phones & tablet*/
+@media only screen and (min-device-width:320px) and (max-device-width:768px){
+.links{
+    display: none;
+}
+.stick{
+    position: sticky;
+    top: 0;
+}
+.ajdev{
+    color: rgb(112, 74, 4);
+    font-size: 70px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: Aj 0.5s 1 normal;
+}
+@keyframes Aj{
+    0%{
+      margin-left: 0px; 
+    }
+    100%{
+       margin-left: 20px;
+    }
+}
+.picture{
+    display: grid;
+    justify-content: center;
+}
+.dp{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 50px;
+    background-color: black;
+}
+.intro1{
+    display: grid;
+    justify-content: center;
+    font-size: 85px;
+    color: rgb(245, 237, 237);
+    margin-top: 100px;
+    font-family: 'Mingzat', sans-serif;
+}
+.ola{
+    text-align: center;
+}
+.intro2{
+    display: grid;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Mingzat', sans-serif;
+    color: rgb(77, 74, 74);
+    margin-top: 50px;
+}
+.clean{
+    text-align: center;
+}
+.explore{
+    margin: auto;    
+    border: 5px solid grey;
+    width: 280px;
+    height: 65px;
+    background-color: rgb(12, 12, 12);
+    margin-top: 100px;
+}
+.explore a{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    padding: 26px;
+    font-family: 'Mingzat', sans-serif;
+    word-spacing: 2px;
+}
+.fa-arrow-right-long{
+    font-size: 35px;
+}
+.socials{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 120px;
+}
+.fa-github, .fa-twitter, .fa-linkedin-in{
+    color: #fff;
+}
+/*projects*/
+.contain{
+    margin-top: 100px;
+}
+.container{
+    border: 5px solid rgb(23, 24, 22);
+    background-color: rgb(5, 4, 4);
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+.container:hover{
+    transition: 0.7s ease-out;
+    transform: scale(1.2);
+    border: 2px solid #fff;
+}
+.project_aj{
+    margin: 40px;
+}
+.ajdev_project{
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Mingzat', sans-serif;
+}
+.description{
+    color: rgb(129, 122, 122);
+    font-size: 35px;
+    font-family: 'Mingzat', sans-serif;
+}
+.languages{
+    color: rgb(129, 122, 122);
+    font-size: 30px;
+    font-family: 'Mingzat', sans-serif;
+    margin-top: 30px;
+}
+.live_code{
+    display: flex;
+    gap: 100px;
+}
+.live_code a{
+    color: rgb(129, 122, 122);
+    font-size: 27px;
+    text-decoration: none;
+}
+.fa-eye, .fa-code-branch{
+    font-size: 25px;
+    color: #fff;
+}
+#home_container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.home{
+    border: 5px solid rgb(23, 24, 22);
+    background-color: rgb(5, 4, 4);
+    width: 200px;
+    height:60px;
+    align-items: center;
+}
+.home a, .resume a{
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Mingzat', sans-serif;
+    padding-left: 20px;
+}
+.resume{
+    border: 5px solid rgb(23, 24, 22);
+    background-color: rgb(5, 4, 4);
+    width: 200px;
+    height: 60px;
+}
+.fa-arrow-left, .fa-arrow-right{
+    font-size: 30px;
+}
+.socials_projects{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+/*Resume*/
+.my_resume{
+    margin: 60px;
+}
+.resume_intro{
+    color: #fff;
+    font-size: 65px;
+    font-family: 'Mingzat', sans-serif;
+    margin-top: 100px;
+}
+.resume_intro2, .projects_done, .hobbies, .languages, .certification, .education, .Sidehustle, .altschool, .experience, .tools, .strorage_database, .skills_resum, .languages_resume, .framework_lib{
+    color: rgb(109, 102, 102);
+    font-size: 45px;
+    font-family: 'Mingzat', sans-serif;
+    margin-top: 50px;
+}
+.line{
+    width: 400px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.line2{
+    width: 400px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+.line3{
+    width: 400px;
+    height: 2px;
+    background-color: #fff;
+    margin-left: 260px;
+    margin-top: -30px;
+}
+.resume_intro3, .certificates, .links_to_projects, .list_of_hobbies, .english, .education_resume, .work_details, .date, .role, .js{
+    color: rgb(76, 71, 71);
+    font-size: 40px;
+    font-family: 'Mingzat', sans-serif;
+    margin-top: 20px;
+}
+.bi-arrow-right-short{
+    color: #fff;
+}
+#here{
+    color: #fff;
+}
+/*Contact*/
+.group{
+    display: grid;
+    margin: 100px;
+}
+.name_email_message{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.input_type{
+    width: 700px;
+    height: 70px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(5, 4, 4);
+    transition: ease-in;
+    margin-top: 20px;
+}
+textarea{
+    width: 700px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(5, 4, 4);
+    transition: ease-in;
+    margin-top: 20px;
+}
+.submit{
+    width: 700px;
+    height: 70px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(5, 4, 4);
+    transition: ease-in;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 30px;
+}
+.submit:hover{
+    background-color: #fff;
+    color: black;
+}
+/*Mobile-view*/
+.connect{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.menu_bar{
+    display: grid;
+    position: relative;
+    width: 55px;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    float: right;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+.menu_bar .bar, .menu_bar:after, .menu_bar:before{
+    width: 60px;
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: rgb(216, 212, 212);
+    margin: 6px 10px;
+    transition: .0s;
+}
+.menu_bar.is-active:before{
+    transform: rotate(-45deg) translate(-18px, 18px);
+}
+.menu_bar.is-active:after{
+    transform: rotate(45deg) translate(-15px, -15px);
+}
+.menu_bar.is-active .bar{
+    opacity: 0;
+}
+.mobile-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    top: -100%;
+    width: 100%;
+    font-size: 45px;
+    min-height: 80vh;
+    z-index: 98;
+    background-color: black;
+    font-family: 'Mingzat', sans-serif;
+    padding-top: 20px;
+    transition: .2s;
+    margin-top: 100px;
+}
+.mobile-nav.is-active{
+    top: 0;
+}
+.mobile-nav a{
+        display:grid;
+        justify-content: center;
+        width: 100%;
+        max-width: 600px;
+        margin:0 auto 16px;
+        padding: 25px 16px;
+        background-color: black;
+        font-family: 'Mingzat', sans-serif;
+        color: rgb(51, 48, 48);
+        text-decoration:none;
+        margin-top: 100px;
+}
+.mobile-nav a:hover{
+    background-color: #fff;
+    color: black;
+}
+.socials_mobile{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.fa-github, .fa-twitter, .fa-linkedin-in{
+    color: #fff;
+}  
+}
